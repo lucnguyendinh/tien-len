@@ -1,0 +1,94 @@
+.wrapper {
+  position: relative;
+}
+
+.listCard {
+  display: flex;
+}
+
+.card {
+  flex: 1;
+  width: 100px;
+  cursor: pointer;
+  list-style-type: none;
+  transition: transform 0.2s ease;
+  z-index: 1;
+}
+
+.card {
+  margin-right: -60px;
+}
+/* .card:not(:first-child) {
+  margin-left: -50%;
+} */
+
+.leftC .isSelected,
+.rightC .isSelected,
+.bottomC .isSelected {
+  transform: translateY(-15px);
+}
+
+.topC .isSelected {
+  transform: translateY(15px);
+}
+
+.option {
+  display: flex;
+}
+
+.skip,
+.gambling {
+  width: 90px;
+  height: 50px;
+  border-radius: 8px;
+  background-color: aliceblue;
+  text-align: center;
+  line-height: 50px;
+  cursor: pointer;
+  color: #fff;
+  margin-left: 15px;
+}
+
+.skip {
+  background-color: #dd860b;
+}
+.gambling {
+  background-color: #0bdd58;
+}
+
+.top {
+  position: absolute;
+  bottom: -70px;
+}
+
+.bottom {
+  position: absolute;
+  top: -70px;
+}
+
+/* .right {
+}
+
+.left {
+} */
+
+/* .center {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(50%, -50%);
+} */
+
+.numberCard {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background-color: #fff;
+  color: #000;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  line-height: 30px;
+}

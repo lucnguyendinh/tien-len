@@ -1,0 +1,144 @@
+.wrapper {
+  background: url("../../../public/assets/background/table.jpg") no-repeat
+    center center fixed;
+  background-size: cover;
+  height: 100vh;
+  position: relative;
+  overflow: hidden;
+  z-index: 1;
+}
+
+.player1 {
+  position: absolute;
+  bottom: 20px;
+  right: 50%;
+  transform: translateX(50%);
+}
+
+.b {
+  display: flex;
+}
+
+.info {
+  margin-right: 20px;
+}
+
+.time {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: #fff;
+  color: #000;
+  text-align: center;
+  line-height: 40px;
+  margin-bottom: 10px;
+}
+
+.name {
+  width: 60px;
+  height: 20px;
+  border-radius: 4px;
+  background-color: aliceblue;
+  text-align: center;
+}
+
+.player2 {
+  position: absolute;
+  right: 20px;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.player3 {
+  display: flex;
+  position: absolute;
+  top: 20px;
+  right: 50%;
+  transform: translateX(50%);
+}
+
+.info3 {
+  margin-left: 20px;
+}
+
+.player4 {
+  position: absolute;
+  left: 20px;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.table {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.notification {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #fff;
+  width: 400px;
+  z-index: 10;
+  border-radius: 8px;
+}
+
+.head {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50px;
+  position: relative;
+}
+
+.head ::after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 2px;
+  background-color: aqua;
+  bottom: 0;
+  right: 0;
+}
+
+.body h3 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 40px;
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 60px;
+  cursor: pointer;
+  position: relative;
+}
+
+.footer ::after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 2px;
+  background-color: aqua;
+  top: 0;
+  right: 0;
+}
+
+.footer .btn {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 8px;
+}
+
+.footer .btn:hover {
+  background-color: aquamarine;
+}
